@@ -1,0 +1,14 @@
+Golay Nie 1001678015 hw8 task 2
+
+output:
+
+a = 15, sa = 15
+a = 15, sa = 20
+a = 15, sa = 25
+a = 15, sa = 30
+a = 15, sa = 35
+a = 15, sa = 40
+a = 15, sa = 45
+a = 15, sa = 50
+a = 15, sa = 55
+a = 15, sa = 60

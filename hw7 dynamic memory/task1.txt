@@ -1,0 +1,8 @@
+Golay Nie 1001678015
+1320 Assignment7 Task1
+
+2 differences between malloc() and calloc() functions in C:
+
+malloc() has 1 argument, the size. clloc() has 2 arguments, the num size and the size.
+
+calloc() initializes the values to zero, whereas malloc() simply allococates the space and the values may be garbage values.

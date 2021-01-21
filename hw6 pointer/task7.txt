@@ -1,0 +1,18 @@
+Golay Nie 1001678015
+Assignment 6, Task 7
+
+First value: 102
+Second value: 37
+Third value: 107
+
+The first value is the dereference operator value of *ptr, 
+and since *ptr points to arr[9], the value is 102. 
+Notice the statement ( arr[*ptr] ++; ) increments the value at arr[102], 
+which is outside the bounds of the array.
+
+The second value is the dereferenced value of *x, which points to arr+4, 
+which is 4 spots after the first index of the array, which is arr[4]=37.
+
+The third value prints arr[4] + *ptr, which is arr[4] + 102. 
+arr[4] was originally 37, but because *x points to the memory location of arr[4], 
+and *x was changed to 5, that changes arr[4] to 5, and 5+102 is 107.

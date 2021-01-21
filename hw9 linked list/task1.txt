@@ -1,0 +1,11 @@
+Golay Nie 1001678015
+Assignment 9 Task 1:
+
+Differences between arrays and linked lists:
+
+Arrays allow easy navigation and the use of row offsets, and they are easier to program.
+However, you can't easily insert or delete items in an array, and you can't free memory after use if they're staitically allocated.
+
+Linked lists can easily insert and delete new elements without moving other elements.
+You also don't need to know the number of elements in advance and can release unneeded memory.
+However, they are not easy to understand and manage, and it's not as easy to access a node in the middle.

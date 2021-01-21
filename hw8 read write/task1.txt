@@ -1,0 +1,12 @@
+Golay Nie 100168015 HW8 task1
+
+A global variable in C is declared outside function blocks and therefore has a wide scope.
+It can be referenced by all functions after where it is declared.
+It is in existence during the full execution time of the program.
+
+Static variables in C exist the whole time the program is executing,
+so when used in loops or recursion the static variable will not be reinitialized.
+To create a static variable, write "static" before the declared variable.
+
+Static variables have internal linkage so you can't use it in other source files (transation units) to refer to the same object.
+Globa variables have external linkage if you declare it extern in another translation unit.
